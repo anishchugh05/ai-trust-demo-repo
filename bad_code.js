@@ -1,15 +1,15 @@
-var userInput = "5"
+let userInput = "5";
 
-if(userInput == 5){
-    console.log("Access granted")
+if (userInput === "5") {
+    console.log("Access granted");
 }
 
-function calculateTotal(items){
-    var total = 0
-    for(var i=0;i<items.length;i++){
-        total = total + items[i]
+function calculateTotal(items) {
+    let total = 0;
+    for (let i = 0; i < items.length; i++) {
+        total = total + items[i];
     }
-    return total
+    return total;
 }
 
-console.log(calculateTotal([1,2,3]))
+console.log(calculateTotal([1, 2, 3]));
